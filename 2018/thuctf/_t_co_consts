@@ -1,0 +1,1 @@
+(None, 'username', 'guest', 'admin', 'Hi,', '! This is your flag: THUCTF{Do_n0t_s4ve_4uth_1nfo_1n_fl4sk_s3ss10n}', '! Only admin can get the flag!', 'msg', '', '(', ')', 'config', 'Illegal request!', '\\n    {% extends "layout.html" %}\\n    {% block body %}\\n    \\t<h2 class="form-signin-heading">', '</h2>\\n    \\t<h4>', '</h4>\\n    {% endblock %}\\n    ')

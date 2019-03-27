@@ -1,0 +1,15 @@
+
+APACHE_RUN_DIR=/var/run/apache2APACHE_PID_FILE=/var/run/apache2/apache2.pid
+
+APACHE_LOCK_DIR=/var/lock/apache2LANG=CAPACHE_RUN_USER=www-dataAPACHE_RUN_GROUP=www-dataAPACHE_LOG_DIR=/var/log/apache2PWD=/var/www/html/sandbox/d2b3d707cea2ebb3cee11a5fbc93a6ee
+
+
+
+/var/www/html/sandbox/d2b3d707cea2ebb3cee11a5fbc93a6ee
+
+
+/var/www/html
+
+/var/log/apache2
+
+/usr/bin/GET

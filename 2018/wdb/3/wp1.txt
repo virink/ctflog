@@ -1,0 +1,44 @@
+## Not_only_base
+
+栅栏密码，key=4
+
+base32解密
+
+---
+
+## mirror
+
+strings 发现 RDHI 和 DNEI 可知有个倒置的png图片
+
+分离并恢复图片的到flag
+
+python2 -c "x=open('flag.jpg','rb').read();open('n.png','wb').write(x[x.find('DNEI'):][::-1])"
+
+---
+
+## track_hacker
+
+wireshark 打开流量包分析，有黑客上传了webshell
+
+追踪数据流得到flag
+
+---
+
+## dewas
+
+文本内容为wasd 即方向键，e为换行，根据方向键步进得到图形即为flag
+
+---
+
+## soEasy
+
+普通的栈溢出，生成shellcode并覆盖eip跳转地址执行即可
+
+## I_like_pack
+
+upx加壳并替换了UPX为ASP，修复并脱壳，IDA中反编译为伪C代码，分析可得
+
+## babyre
+
+IDA分析，可见三段flag字符串，拼接即可
+

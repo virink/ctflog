@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: monospace;
+  font-size: 110%;
+}
+
+#panel {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  margin: auto;
+}
+
+#messagebox {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1em;
+  width: 100%;
+  font-size: inherit;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgrey;
+  margin-left: -1px;
+}
+
+#conversation {
+  position: absolute;
+  width: 100%;
+  bottom: 2.5em;
+}
+
+span[data-secret]:hover:after {
+  content: " (" attr(data-secret) ")";
+}

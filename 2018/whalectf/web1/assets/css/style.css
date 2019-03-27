@@ -1,0 +1,351 @@
+
+
+/*	################################################################
+	1. GENERAL STRUCTURES
+################################################################# */
+
+/* Import fonts */
+@import url(http://fonts.googleapis.com/css?family=Raleway:900,700,400);
+
+* { 
+	margin: 0;
+	padding: 0px;
+    font-family: 'Raleway', sans-serif;
+} 
+body { 
+	background: #fff; 
+	margin: 0; 
+	color: #5a5a5a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+
+p { 
+	padding: 0; 
+	margin-bottom: 12px; 
+    font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 18px; 
+	line-height: 28px;
+	color: #666; 
+	margin-top: 10px; 
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.alignleft { float: left; }
+.alignright { float: right; }
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clear: both;
+}
+.centered {text-align: center}
+.mt {margin-top: 50px;}
+.mb {margin-bottom: 50px;}
+.mtb {margin-top: 50px; margin-bottom: 50px;}
+.mtb2 { margin-top: 100px; margin-bottom: 100px;}
+.ptb {padding-top: 80px; padding-bottom: 80px;}
+
+.clear {
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	width:100%;
+}
+::-moz-selection  {
+	color: #fff;
+	text-shadow:none;
+	background:#2B2E31;
+}
+::selection {
+	color: #fff;
+	text-shadow:none;
+	background:#2B2E31;
+}
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+a { 
+	padding: 0;
+	margin: 0;
+	text-decoration: none; 
+	-webkit-transition: background-color .4s linear, color .4s linear;
+	-moz-transition: background-color .4s linear, color .4s linear;
+	-o-transition: background-color .4s linear, color .4s linear;
+	-ms-transition: background-color .4s linear, color .4s linear;
+	transition: background-color .4s linear, color .4s linear;
+	color: #1abc9c;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color:#696E74;
+}
+
+.nopadding {
+	padding: 0px !important;
+	margin: 0px;
+}
+.copyrights{
+	text-indent:-9999px;
+	height:0;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
+/* Bootstrap Modification */
+
+.navbar-inverse {
+	background: transparent;
+	border: transparent;
+}
+
+img {
+	padding-bottom: 10px;
+}
+
+/* FORM CONFIGURATION */
+
+input {
+	font-size: 16px;
+	min-height: 40px;
+	border-radius: 2px;
+	line-height: 20px;
+	padding: 11px 30px 12px;
+	border: 1px solid #b9b9af;
+	margin-bottom: 10px;
+	background-color: #fff ;
+	-webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+
+.subscribe-input {
+	float: center;
+	width: 65%;
+	text-align: center;
+	margin-right: 2px;
+    color:#000;
+}
+
+.subscribe-submit {
+	right: 0;
+    color:#000;
+}
+
+
+.btn-register {
+	margin-top: 15px;
+	border-radius: 50px;
+	margin-right: 10px;
+	top: 0px;
+	float: center;
+	font-size: 16px;
+}
+.btn-cen {
+	margin-top: 15px;
+	border-radius: 50px;
+	margin-right: 10px;
+	top: 0px;
+	float: center;
+	font-size: 20px;
+}
+
+.btn-sub {
+	border-radius: 50px;
+}
+
+/* Overall Buttons*/
+.btn-theme {
+	border-radius: 50px;
+	font-size: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.btn-white {
+	background: white;
+	color: #2f2f2f;
+}
+
+.btn-white:hover {
+	background: #2f2f2f;
+	color: white;
+}
+
+/* HEADER SECTION */
+#h {
+	background: url(../img/header.jpg) no-repeat center top;
+	padding-top: 10px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#h h1 {
+	color: white;
+	font-weight: 900;
+	font-size: 70px;
+	letter-spacing: 5px;
+}
+
+#h h3 {
+	color: white;
+	font-weight: 400;
+}
+
+#h img {
+	padding-bottom: 0px;
+}
+
+/* White Section */
+#w {
+	background: white;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#w .col-md-6 {
+	padding-right: 0px;
+}
+
+#w p {
+	color: #9f9f9f;
+	font-size: 16px;
+}
+
+
+/* Blue Section - Picton */
+#picton {
+	background: #59ABE3;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+}
+
+#picton .col-md-6 {
+	padding-left: 0px;
+}
+
+#picton p {
+	color: #e9e9e9;
+	font-size: 16px;
+}
+
+/* Blue Section - Curious */
+#curious {
+	background: #3498DB;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+}
+
+#curious .col-md-6 {
+	padding-right: 0px;
+}
+
+#curious p {
+	color: #e9e9e9;
+	font-size: 16px;
+}
+
+/* Blue Section - Malibu */
+#malibu {
+	background: #6BB9F0;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+}
+
+#malibu .col-md-6 {
+	padding-left: 0px;
+}
+
+#malibu p {
+	color: #e9e9e9;
+	font-size: 16px;
+}
+
+/* Blue Section - Jelly */
+#jelly {
+	background: #2574A9;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+}
+
+#jelly p {
+	color: #e9e9e9;
+	font-size: 16px;
+}
+
+#jelly h1 {
+	font-size: 200px;
+}
+
+#jelly h3 {
+	margin-top: 10px;
+}
+
+/* FOOTER */
+#f {
+	background: #2f2f2f;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+}
+
+#f p {
+	color: white;
+}
+
+#f h4 {
+	font-weight: 400;
+	text-align: center;
+	font-size: 24px;
+}
+
+/* CREDIT */
+#c {
+	background: black;
+	padding: 20px;
+}
+
+#c p {
+	color: white;
+	font-size: 13px;
+}

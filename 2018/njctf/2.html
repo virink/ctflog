@@ -1,0 +1,163 @@
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+<br />error_reporting</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">);
+<br />include&nbsp;</span><span style="color: #DD0000">'getip.php'</span><span style="color: #007700">;
+<br /></span><span style="color: #0000BB">ini_set</span><span style="color: #007700">(</span><span style="color: #DD0000">'open_basedir'</span><span style="color: #007700">,</span><span style="color: #DD0000">'.'</span><span style="color: #007700">);
+<br />if(isset(</span><span style="color: #0000BB">$_POST</span><span style="color: #007700">[</span><span style="color: #DD0000">'viewsource'</span><span style="color: #007700">])){
+<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">highlight_file</span><span style="color: #007700">(</span><span style="color: #0000BB">__FILE__</span><span style="color: #007700">);
+<br />&nbsp;&nbsp;&nbsp;&nbsp;die();
+<br />}
+<br />
+<br /></span><span style="color: #0000BB">mt_srand</span><span style="color: #007700">(</span><span style="color: #0000BB">mktime</span><span style="color: #007700">()+</span><span style="color: #0000BB">$seed</span><span style="color: #007700">);
+<br />
+<br />function&nbsp;</span><span style="color: #0000BB">de_code</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">){
+<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$value&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">base64_decode</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">);
+<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">''</span><span style="color: #007700">;
+<br />&nbsp;&nbsp;&nbsp;&nbsp;for(</span><span style="color: #0000BB">$i</span><span style="color: #007700">=</span><span style="color: #0000BB">0</span><span style="color: #007700">;</span><span style="color: #0000BB">$i</span><span style="color: #007700">&lt;</span><span style="color: #0000BB">strlen</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">);</span><span style="color: #0000BB">$i</span><span style="color: #007700">++){
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">.=&nbsp;</span><span style="color: #0000BB">chr</span><span style="color: #007700">(</span><span style="color: #0000BB">ord</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">[</span><span style="color: #0000BB">$i</span><span style="color: #007700">])-</span><span style="color: #0000BB">$i</span><span style="color: #007700">*</span><span style="color: #0000BB">2</span><span style="color: #007700">);
+<br />&nbsp;&nbsp;&nbsp;&nbsp;}
+<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$result</span><span style="color: #007700">;
+<br />}
+<br />
+<br />if(!(</span><span style="color: #0000BB">getip</span><span style="color: #007700">()&nbsp;===&nbsp;</span><span style="color: #DD0000">'127.0.0.1'&nbsp;</span><span style="color: #007700">&amp;&amp;&nbsp;</span><span style="color: #0000BB">file_get_contents</span><span style="color: #007700">(</span><span style="color: #0000BB">$_GET</span><span style="color: #007700">[</span><span style="color: #DD0000">'9527'</span><span style="color: #007700">])&nbsp;===&nbsp;</span><span style="color: #DD0000">'nctf_is_good'&nbsp;</span><span style="color: #007700">&amp;&amp;&nbsp;</span><span style="color: #0000BB">mt_rand</span><span style="color: #007700">(</span><span style="color: #0000BB">1</span><span style="color: #007700">,</span><span style="color: #0000BB">10000</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #0000BB">intval</span><span style="color: #007700">(</span><span style="color: #0000BB">$_GET</span><span style="color: #007700">[</span><span style="color: #DD0000">'go_Lakers'</span><span style="color: #007700">]))){
+<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">header</span><span style="color: #007700">(</span><span style="color: #DD0000">'location:http://www.baidu.com'</span><span style="color: #007700">);
+<br />}else{
+<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">'great'</span><span style="color: #007700">;
+<br />}
+<br />
+<br />echo&nbsp;</span><span style="color: #0000BB">file_get_contents</span><span style="color: #007700">(</span><span style="color: #0000BB">de_code</span><span style="color: #007700">(</span><span style="color: #0000BB">$_GET</span><span style="color: #007700">[</span><span style="color: #DD0000">'file_'</span><span style="color: #007700">]));
+<br />
+<br /></span><span style="color: #0000BB">?&gt;
+<br /></span>
+<br />&lt;!DOCTYPE&nbsp;html&gt;
+<br />&lt;html&gt;
+<br />&lt;head&gt;
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;嘻嘻嘻&lt;/title&gt;
+<br />&lt;/head&gt;
+<br />&lt;body&gt;
+<br />&lt;h3&gt;题目在哪呢&lt;/h3&gt;
+<br />&lt;/body&gt;
+<br />&lt;/html&gt;&gt;
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />&lt;!--&nbsp;post&nbsp;me&nbsp;viewsource&nbsp;--&gt;
+<br /></span>

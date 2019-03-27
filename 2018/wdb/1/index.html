@@ -1,0 +1,125 @@
+
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+
+    <title>控制台-自豪地采用Flask</title>
+
+<style type="text/css"> 
+.AutoNewline 
+{ 
+  Word-break: break-all;
+} 
+</style>
+    <link rel="stylesheet" href="/vendor/bootstrap-select/bootstrap-select.css">
+    <link rel="stylesheet" href="/vendor/dropzone/dropzone.css">
+    <link rel="stylesheet" href="/vendor/slider/slider.css">
+    <link rel="stylesheet" href="/vendor/bootstrap-datepicker/datepicker.css">
+    <link rel="stylesheet" href="/vendor/timepicker/jquery.timepicker.css">
+    <link rel="stylesheet" href="/vendor/offline/theme.css">
+    <link rel="stylesheet" href="/vendor/pace/theme.css">
+
+
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/animate.min.css">
+
+    <link rel="stylesheet" href="/css/panel.css">
+
+    <link rel="stylesheet" href="/css/skins/palette.1.css" id="skin">
+    <link rel="stylesheet" href="/css/fonts/style.1.css" id="font">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <script src="/vendor/modernizr.js"></script>
+</head>
+
+<body>
+
+            <section class="main-content">
+                <div class="content-wrap">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="tab-content ">
+                                <section class="tab-pane active">
+                                            <section class="panel">
+                                                <header class="panel-heading"><b>在线爬虫单页分析系统</b></header>
+                                                <div class="panel-body">
+                                                    <form class="form-horizontal bordered-group" role="form" method="post" enctype="multipart/form-data" onsubmit="return submit_check()">
+                                                        <div class="form-group">
+                                                            <label class="col-sm-2 control-label">HTML文件</label>
+                                                            <div class="col-sm-5">
+                                                                <input type="file" name="file">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="col-sm-2 control-label">分析结果</label>
+                                                            <div class="col-sm-5">
+                                                                <textarea placeholder="分析并输出A标签innerHTML" class="form-control" rows="8">URL: http://127.0.0.1:80/upload/fc33e262-a442-11e8-99a7-0242ac11001b.html
+NULL</textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="col-sm-2 control-label"></label>
+                                                            <div class="col-sm-10">
+                                                                <button type="submit" class="btn btn-success"><i class="fa fa-check"></i>提交</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </section>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+    <script src="/vendor/jquery-1.11.1.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.js"></script>
+    <script src="/vendor/jquery.easing.min.js"></script>
+    <script src="/vendor/jquery.placeholder.js"></script>
+    <script src="/vendor/fastclick.js"></script>
+
+
+    <script src="/vendor/bootstrap-select/bootstrap-select.js"></script>
+    <script src="/vendor/dropzone/dropzone.js"></script>
+    <script src="/vendor/parsley.min.js"></script>
+    <script src="/vendor/fuelux/checkbox.js"></script>
+    <script src="/vendor/fuelux/radio.js"></script>
+    <script src="/vendor/fuelux/wizard.js"></script>
+    <script src="/vendor/fuelux/pillbox.js"></script>
+    <script src="/vendor/fuelux/spinner.js"></script>
+    <script src="/vendor/slider/bootstrap-slider.js"></script>
+    <script src="/vendor/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+    <script src="/vendor/wysiwyg/jquery.hotkeys.js"></script>
+    <script src="/vendor/wysiwyg/bootstrap-wysiwyg.js"></script>
+    <script src="/vendor/switchery/switchery.js"></script>
+    <script src="/vendor/timepicker/jquery.timepicker.js"></script>
+    <script src="/vendor/offline/offline.min.js"></script>
+    <script src="/vendor/pace/pace.min.js"></script>
+
+    <script src="/vendor/jquery.slimscroll.js"></script>
+    <script src="/js/off-canvas.js"></script>
+    <script src="/js/main.js"></script>
+
+    <script src="/js/panel.js"></script>
+    <script src="/js/forms.js"></script>
+<script language="javascript">  
+function submit_check(){
+    var gnl=confirm("确定要提交?");
+    if (gnl==true){
+        return true;
+    }
+    else{
+        return false;
+    }
+    }
+</script> 
+</body>
+</html>

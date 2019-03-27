@@ -1,0 +1,163 @@
+{
+  "modified": "2018-09-26 22:23:25",
+  "size": 339,
+  "code": {
+    "type": "code",
+    "co_argcount": 0,
+    "co_kwonlyargcount": 0,
+    "co_nlocals": 0,
+    "co_stacksize": 2,
+    "co_flags": 64,
+    "co_code": {
+      "type": "string",
+      "length": 12,
+      "value": "b'd\\x00d\\x01\\x84\\x00Z\\x00d\\x02S\\x00'"
+    },
+    "co_consts": {
+      "type": "tuple",
+      "size": 3,
+      "items": [{
+        "type": "code",
+        "co_argcount": 0,
+        "co_kwonlyargcount": 0,
+        "co_nlocals": 3,
+        "co_stacksize": 2,
+        "co_flags": 67,
+        "co_code": {
+          "type": "string",
+          "length": 42,
+          "value": "b'd\\x01}\\x00t\\x00d\\x02k\\x02r\\x12d\\x03}\\x01n\\x10t\\x00d\\x04k\\x02r\"d\\x05|\\x00\\x17\\x00}\\x01d\\x06}\\x02d\\x00S\\x00'"
+        },
+        "co_consts": {
+          "type": "tuple",
+          "size": 7,
+          "items": [{
+            "type": "none"
+          }, {
+            "type": "unicode",
+            "size": 67,
+            "value": "! This is your flag: THUCTF{Do_n0t_s4ve_4uth_1nfo_1n_fl4sk_s3ss10n}"
+          }, {
+            "type": "unicode",
+            "size": 5,
+            "value": "guest"
+          }, {
+            "type": "unicode",
+            "size": 30,
+            "value": "! Only admin can get the flag!"
+          }, {
+            "type": "unicode",
+            "size": 5,
+            "value": "admin"
+          }, {
+            "type": "unicode",
+            "size": 3,
+            "value": "Hi,"
+          }, {
+            "type": "unicode",
+            "size": 91,
+            "value": "\n    {% extends \"layout.html\" %}\n    {% block body %}\n    \t<h2 class=\"form-signin-heading\">"
+          }]
+        },
+        "co_names": {
+          "type": "tuple",
+          "size": 1,
+          "items": [{
+            "type": "unicode",
+            "size": 8,
+            "value": "username"
+          }]
+        },
+        "co_varnames": {
+          "type": "tuple",
+          "size": 3,
+          "items": [{
+            "type": "unicode",
+            "size": 4,
+            "value": "flag"
+          }, {
+            "type": "unicode",
+            "size": 3,
+            "value": "msg"
+          }, {
+            "type": "unicode",
+            "size": 8,
+            "value": "template"
+          }]
+        },
+        "co_freevars": {
+          "type": "tuple",
+          "size": 0,
+          "items": []
+        },
+        "co_cellvars": {
+          "type": "ref",
+          "ref": 2,
+          "value": []
+        },
+        "co_filename": {
+          "type": "unicode",
+          "size": 11,
+          "value": "/root/en.py"
+        },
+        "co_name": {
+          "type": "unicode",
+          "size": 4,
+          "value": "test"
+        },
+        "co_firstlineno": 1,
+        "co_lnotab": {
+          "type": "string",
+          "length": 12,
+          "value": "b'\\x00\\x01\\x04\\x01\\x08\\x01\\x06\\x01\\x08\\x01\\x08\\x01'"
+        }
+      }, {
+        "type": "ref",
+        "ref": 4,
+        "value": "test"
+      }, {
+        "type": "none"
+      }]
+    },
+    "co_names": {
+      "type": "tuple",
+      "size": 1,
+      "items": [{
+        "type": "ref",
+        "ref": 4,
+        "value": "test"
+      }]
+    },
+    "co_varnames": {
+      "type": "ref",
+      "ref": 2,
+      "value": []
+    },
+    "co_freevars": {
+      "type": "ref",
+      "ref": 2,
+      "value": []
+    },
+    "co_cellvars": {
+      "type": "ref",
+      "ref": 2,
+      "value": []
+    },
+    "co_filename": {
+      "type": "ref",
+      "ref": 3,
+      "value": "/root/en.py"
+    },
+    "co_name": {
+      "type": "unicode",
+      "size": 8,
+      "value": "<module>"
+    },
+    "co_firstlineno": 1,
+    "co_lnotab": {
+      "type": "string",
+      "length": 0,
+      "value": "b''"
+    }
+  }
+}

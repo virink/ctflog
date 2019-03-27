@@ -1,0 +1,14 @@
+{
+  "name": "nj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "f.js",
+  "scripts": {
+    "strat": "node f.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "png-img": "^2.1.1"
+  }
+}

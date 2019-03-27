@@ -1,0 +1,37 @@
+cmdline
+
+uwsgi --socket 0.0.0.0:8000 \
+--module rwctf.wsgi \
+--chdir /usr/src/rwctf \
+--uid nobody \
+--gid nogroup \
+--cheaper-algospare \
+--cheaper 2 \
+--cheaper-initial 4 \
+--workers 10 \
+--cheaper-step 1
+
+
+uwsgi --socket 0.0.0.0:8001 --module rwctf.wsgi --chdir /path/to/2018/rwctffinal/web2/
+
+/usr/src/rwctf
+
+/usr/src/rwctf/
+	rwctf/
+		settings.py
+	xremote/
+
+file://////tmp/db.sqlite3
+
+file:///usr/src/rwctf/rwctf/settings.py
+file:///usr/src/rwctf/rwctf/urls.py
+file:///usr/src/rwctf/rwctf/wsgi.py
+
+file:///usr/src/rwctf/xremote/__init__.py
+file:///usr/src/rwctf/xremote/views.py
+file:///usr/src/rwctf/xremote/apps.py
+file:///usr/src/rwctf/xremote/urls.py
+file:///usr/src/rwctf/xremote/models.py
+file:///usr/src/rwctf/xremote/forms.py
+file:///usr/src/rwctf/xremote/templates/index.html
+

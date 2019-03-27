@@ -1,0 +1,15 @@
+<table class="table table-hover">
+    <tr>
+        <td width="70px">
+            <a href="{{ url_for('user', username=post[1][0]) }}">
+                    <img src="{{ avatars(post[1].username,70) }}" />
+                </a>
+        </td>
+        <td>
+            <a href="{{ url_for('user', username=post[1].username) }}">
+                    {{ post[1].username }}
+                </a> said {{ moment(post[0][3]).fromNow() }}:
+            <br> {{ post[0][1] }}
+        </td>
+    </tr>
+</table>
