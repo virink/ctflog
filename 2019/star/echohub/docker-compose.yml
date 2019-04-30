@@ -1,0 +1,12 @@
+version: "2"
+services:
+  web:
+    build: .
+    image: virink/starctf_echohun
+    restart: always
+    volumes:
+      - ./:/var/www/html/
+      - ./run.sh:/run.sh
+    command: sh -c "mkdir /run/php/ && /run.sh"
+    ports:
+      - "8307:80"
