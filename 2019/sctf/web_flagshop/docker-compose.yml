@@ -1,0 +1,14 @@
+version: "2"
+services:
+  web:
+    # build: .
+    image: mcansky/sinatra_hello
+    restart: always
+    ports:
+      - "127.0.0.1:8185:8080"
+    command: tail -f /dev/null
+    environment:
+      - SECRET=9fc02482337de180f3f96f67fdca7a6a
+      - FLAG=sctf{aedvawdcasdc}
+    volumes: 
+      - ./app:/var/app

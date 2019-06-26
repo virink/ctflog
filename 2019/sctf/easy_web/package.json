@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "async": "^3.0.1",
+    "aws-sdk": "^2.480.0"
+  }
+}

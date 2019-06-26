@@ -1,0 +1,104 @@
+/* AUTOMATICALLY GENERATED ON Sat Jun 22 01:26:19 CST 2019*/
+/* DO NOT EDIT */
+
+grant codeBase "file:${java.home}/lib/-" {
+  permission java.security.AllPermission;
+};
+
+grant codeBase "file:${java.home}/jre/lib/ext/-" {
+  permission java.security.AllPermission;
+};
+
+grant codeBase "file:${java.home}/../lib/-" {
+  permission java.security.AllPermission;
+};
+
+grant codeBase "file:${java.home}/lib/ext/-" {
+  permission java.security.AllPermission;
+};
+
+grant codeBase "file:${catalina.home}/bin/commons-daemon.jar" {
+  permission java.security.AllPermission;
+};
+
+grant codeBase "file:${catalina.home}/bin/tomcat-juli.jar" {
+  permission java.io.FilePermission "${java.home}${file.separator}lib${file.separator}logging.properties", "read";
+  permission java.io.FilePermission "${catalina.base}${file.separator}conf${file.separator}logging.properties", "read";
+  permission java.io.FilePermission "${catalina.base}${file.separator}logs", "read, write";
+  permission java.io.FilePermission "${catalina.base}${file.separator}logs${file.separator}*", "read, write, delete";
+  permission java.lang.RuntimePermission "shutdownHooks";
+  permission java.lang.RuntimePermission "getClassLoader";
+  permission java.lang.RuntimePermission "setContextClassLoader";
+  permission java.lang.management.ManagementPermission "monitor";
+  permission java.util.logging.LoggingPermission "control";
+  permission java.util.PropertyPermission "java.util.logging.config.class", "read";
+  permission java.util.PropertyPermission "java.util.logging.config.file", "read";
+  permission java.util.PropertyPermission "org.apache.juli.AsyncLoggerPollInterval", "read";
+  permission java.util.PropertyPermission "org.apache.juli.AsyncMaxRecordCount", "read";
+  permission java.util.PropertyPermission "org.apache.juli.AsyncOverflowDropType", "read";
+  permission java.util.PropertyPermission "org.apache.juli.ClassLoaderLogManager.debug", "read";
+  permission java.util.PropertyPermission "catalina.base", "read";
+};
+
+grant codeBase "file:${catalina.home}/bin/bootstrap.jar" {
+  permission java.security.AllPermission;
+};
+
+grant codeBase "file:${catalina.home}/lib/-" {
+  permission java.security.AllPermission;
+};
+
+grant {
+  permission java.util.PropertyPermission "java.home", "read";
+  permission java.util.PropertyPermission "java.naming.*", "read";
+  permission java.util.PropertyPermission "javax.sql.*", "read";
+  permission java.util.PropertyPermission "os.name", "read";
+  permission java.util.PropertyPermission "os.version", "read";
+  permission java.util.PropertyPermission "os.arch", "read";
+  permission java.util.PropertyPermission "file.separator", "read";
+  permission java.util.PropertyPermission "path.separator", "read";
+  permission java.util.PropertyPermission "line.separator", "read";
+  permission java.util.PropertyPermission "java.version", "read";
+  permission java.util.PropertyPermission "java.vendor", "read";
+  permission java.util.PropertyPermission "java.vendor.url", "read";
+  permission java.util.PropertyPermission "java.class.version", "read";
+  permission java.util.PropertyPermission "java.specification.version", "read";
+  permission java.util.PropertyPermission "java.specification.vendor", "read";
+  permission java.util.PropertyPermission "java.specification.name", "read";
+  permission java.util.PropertyPermission "java.vm.specification.version", "read";
+  permission java.util.PropertyPermission "java.vm.specification.vendor", "read";
+  permission java.util.PropertyPermission "java.vm.specification.name", "read";
+  permission java.util.PropertyPermission "java.vm.version", "read";
+  permission java.util.PropertyPermission "java.vm.vendor", "read";
+  permission java.util.PropertyPermission "java.vm.name", "read";
+  permission java.lang.RuntimePermission "getAttribute";
+  permission java.util.PropertyPermission "jaxp.debug", "read";
+  permission java.lang.RuntimePermission "accessClassInPackage.org.apache.tomcat";
+  permission java.lang.RuntimePermission "accessClassInPackage.org.apache.jasper.el";
+  permission java.lang.RuntimePermission "accessClassInPackage.org.apache.jasper.runtime";
+  permission java.lang.RuntimePermission "accessClassInPackage.org.apache.jasper.runtime.*";
+  permission java.util.PropertyPermission "org.apache.catalina.STRICT_SERVLET_COMPLIANCE", "read";
+  permission java.util.PropertyPermission "org.apache.tomcat.util.http.ServerCookie.STRICT_NAMING", "read";
+  permission java.util.PropertyPermission "org.apache.tomcat.util.http.ServerCookie.FWD_SLASH_IS_SEPARATOR", "read";
+  permission java.lang.RuntimePermission "accessClassInPackage.org.apache.tomcat.websocket";
+  permission java.lang.RuntimePermission "accessClassInPackage.org.apache.tomcat.websocket.server";
+  permission java.lang.RuntimePermission "accessClassInPackage.org.apache.catalina.servlet4preview";
+  permission java.lang.RuntimePermission "accessClassInPackage.org.apache.catalina.servlet4preview.http";
+  permission java.lang.RuntimePermission "loadLibrary.*";
+  permission java.net.SocketPermission "*:*", "connect, accept, listen";
+};
+
+grant codeBase "file:${catalina.home}/webapps/ROOT/-" {
+  permission java.lang.RuntimePermission "accessClassInPackage.sun.misc";
+  permission java.lang.RuntimePermission "accessDeclaredMembers";
+  permission java.lang.RuntimePermission "createClassLoader";
+  permission java.io.FilePermission "C:\\babyEoP\\apache-tomcat-8.5.42\\conf", "read";
+  permission java.io.FilePermission "C:\\babyEoP\\apache-tomcat-8.5.42\\conf\\-", "read";
+  permission java.io.FilePermission "C:\\babyEoP\\apache-tomcat-8.5.42\\webapps", "read";
+  permission java.io.FilePermission "C:\\babyEoP\\apache-tomcat-8.5.42\\webapps\\-", "read";
+};
+
+grant codeBase "file:${catalina.home}/webapps/ROOT/WEB-INF/lib/-" {
+  permission java.security.AllPermission;
+};
+
