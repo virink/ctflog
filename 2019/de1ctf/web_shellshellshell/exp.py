@@ -10,7 +10,6 @@ import re
 import json
 import hashlib
 import random
-import commands
 
 local = 0
 
