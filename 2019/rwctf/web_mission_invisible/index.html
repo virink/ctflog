@@ -1,0 +1,65 @@
+
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>Mission Invisible</title>
+    <link href="http://52.52.236.217:16401/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://52.52.236.217:16401/assets/css/starter-template.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+    <div class="starter-template">
+        <h1>Mission Invisible</h1>
+        <p class="lead">You need to obtain the flag through two different invisible places.</p>
+    </div>
+</div>
+
+</body>
+<script>
+    var getUrlParam = function (name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = unescape(window.location.search.substr(1)).match(reg);
+        if (r != null) return r[2];
+        return null;
+    }
+
+    function setCookie(name, value) {
+        var Days = 30;
+        var exp = new Date();
+        exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 30);
+        document.cookie = name + "=" + value + ";expires=" + exp.toGMTString();
+    }
+
+    function getCookie(name) {
+        var search = name + "="
+        var offset = document.cookie.indexOf(search)
+        if (offset != -1) {
+            offset += search.length;
+            var end = document.cookie.indexOf(";", offset);
+            if (end == -1) {
+                end = document.cookie.length;
+            }
+            return unescape(document.cookie.substring(offset, end));
+        }
+        else return "";
+    }
+
+    function setElement(tag) {
+        tag = tag.substring(0, 1);
+        var ele = document.createElement(tag)
+        var attrs = getCookie("attrs").split("&");
+        for (var i = 0; i < attrs.length; i++) {
+            var key = attrs[i].split("=")[0];
+            var value = attrs[i].split("=")[1];
+            ele.setAttribute(key, value);
+        }
+        document.body.appendChild(ele);
+    }
+
+    var tag = getUrlParam("tag");
+    setCookie("tag", tag);
+    setElement(tag);
+
+</script>
+</html>
