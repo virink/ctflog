@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<display-name>takfffffffffffffff</display-name>
+	<description>fffffffffffff</description>
+
+	<servlet>
+		<servlet-name>ExportTanksServlet</servlet-name>
+		<servlet-class>tank.book.ExportTanks</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ImportTanksServlet</servlet-name>
+		<servlet-class>tank.book.ImportTanks</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>TanksListServlet</servlet-name>
+		<servlet-class>tank.book.TanksList</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>FlagServlet</servlet-name>
+		<servlet-class>tank.book.Flag</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ExportTanksServlet</servlet-name>
+		<url-pattern>/export</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ImportTanksServlet</servlet-name>
+		<url-pattern>/import</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TanksListServlet</servlet-name>
+		<url-pattern>/list</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FlagServlet</servlet-name>
+		<url-pattern>/flag</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>/index.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>

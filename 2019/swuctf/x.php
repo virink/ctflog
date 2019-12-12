@@ -1,0 +1,32 @@
+<?php
+@ini_set("display_errors", "0");
+@set_time_limit(0);
+
+function asenc($out) {
+	@session_start();
+	$key = 'f5045b05abe6ec9b1e37fafa851f5de9';
+	return @base64_encode(openssl_encrypt(base64_encode($out), 'AES-128-ECB', $key, OPENSSL_RAW_DATA));
+};
+
+function asdec($in) {
+	$key = 'f5045b05abe6ec9b1e37fafa851f5de9';
+	return @base64_decode(openssl_decrypt(base64_decode($in), 'AES-128-ECB', $key, OPENSSL_RAW_DATA));
+};
+
+function asoutput() {
+	$output = ob_get_contents();
+	ob_end_clean();
+	echo "0897d";
+	echo @asenc($output);
+	echo "60c97";
+}
+
+echo asdec("kRD1eD+vSZ81FAJ6XClabCR0xNFklup5/x+gixas3l0kdMTRZJbqef8foIsWrN5dJHTE0WSW6nn/H6CLFqzeXSR0xNFklup5/x+gixas3l0kdMTRZJbqef8foIsWrN5dZOTFg4DW9MYwG6k3rEvAAR8oFStGnfMRtUJOqc0mgokfKBUrRp3zEbVCTqnNJoKJHygVK0ad8xG1Qk6pzSaCiR8oFStGnfMRtUJOqc0mgokfKBUrRp3zEbVCTqnNJoKJ1qI47Cz1/qfnNoNARGhLfVhC0RJlfeKCvbPwpjFn//BSFY8RJlZyxz1a+TPy0D3cUhWPESZWcsc9Wvkz8tA93FIVjxEmVnLHPVr5M/LQPdxSFY8RJlZyxz1a+TPy0D3cUhWPESZWcsc9Wvkz8tA93GnMvJfVbvphfWnt17IOkzYjvv91k2fnYDR7u4nlGM3YitxGYGs9mn+HS5iJBXORtYrcRmBrPZp/h0uYiQVzkbWK3EZgaz2af4dLmIkFc5G1itxGYGs9mn+HS5iJBXORtUq4dBjDRFhDqDyzs9CScJhrd3yMusQ+qsnZkq4Ey7NVJHTE0WSW6nn/H6CLFqzeXSR0xNFklup5/x+gixas3l0kdMTRZJbqef8foIsWrN5dJHTE0WSW6nn/H6CLFqzeXSR0xNFklup5/x+gixas3l2hDPuDhVN4TaDLzp9bXyfGeCVhvglAaNo2rA/ovnRTTtfA5ZywMOOijj6md5RItqjXwOWcsDDjoo4+pneUSLao18DlnLAw46KOPqZ3lEi2qNfA5ZywMOOijj6md5RItqgS0b9hS7r5TX9YNZo2awgUAyqVacVgwr1NlNQ2k/kihhh0QQfnjeGdZhkz0N0jAKiMzFmAMa7xQ1URxTaHoHjDg3NaWl/8+PVG+pyaKrbNDjfl77POeQE8+0MCHpz6YxWLJ6mwCe1X3uzz/HSHcHSvQBB8FxjOhugOErOXkd3LZi/60Gr4gIEc1JIxA5A2pE/V6Z/DFwNOR4M/IIIWdGr5");
+
+echo base64_decode("YmFiYWJhYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJi
+YmIKaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGho
+aGhoaGgKaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGho
+aGhoaGhoaGgKZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dn
+Z2dnZ2dnZ2dnZ2cKYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJi
+YmJiYmJiYmJiYmJiYmIKbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5u
+bm5ubm5ubm5ubm5ubm5ubm4KZmxhZ3tBbnRTd29yZF9pc19Qb3dlcmZ1bF8zMjIyMjIyISEhIX0K");
